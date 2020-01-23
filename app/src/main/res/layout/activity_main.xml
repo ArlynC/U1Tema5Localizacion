@@ -55,5 +55,15 @@
             android:layout_gravity="center"
             android:onClick="mifusedlocation"
             android:text="Fused Location"/>
+        <Button
+            android:id="@+id/btnFusedClient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:onClick="miflc"
+            android:text="Fused Location Clientn"/>
     </LinearLayout>
 </LinearLayout>

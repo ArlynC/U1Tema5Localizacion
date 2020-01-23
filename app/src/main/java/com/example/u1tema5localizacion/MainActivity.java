@@ -100,4 +100,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         startActivity(new Intent(this, MiFusedLocation.class));
     }
 
+    public void miflc(View view) {
+        startActivity(new Intent(this,MiFusedLocationClient.class));
+    }
 }
